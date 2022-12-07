@@ -1,0 +1,1818 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! saya di sini. Mau ngobrol apa nih?",
+        "Halo! salam kenal ya! Mau tau tentang mental health, kan?",
+        "Helo! Ada masalah mental health ya?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)"
+      ]
+    },
+    {
+      "tag": "penjelasan_mental_illness",
+      "patterns": [
+        "Apa artinya memiliki penyakit mental?",
+        "Apa itu penyakit mental?",
+        "Apa itu mental illness?",
+        "Mental illness adalah?",
+        "Penyakit mental adalah?",
+        "Pengertian mental illness",
+        "Definisi mental illness",
+        "Penjelasan tentang mental illness"
+      ],
+      "responses": [
+        "Mental illness, disebut juga dengan gangguan mental atau jiwa, adalah kondisi kesehatan yang memengaruhi pemikiran, perasaan, perilaku, suasana hati, atau kombinasi diantaranya. Kondisi ini dapat terjadi sesekali atau berlangsung dalam waktu yang lama (kronis)"
+      ]
+    },
+    {
+      "tag": "pengidap_mental_illness",
+      "patterns": [
+        "Siapa yang dapat terkena penyakit mental?",
+        "Siapa yang dapat terkena mental illness?",
+        "Apakah saya mempunyai penyakit mental?",
+        "Apakah saya mempunyai gangguan mental?"
+      ],
+      "responses": [
+        "Gangguan mental bisa terjadi pada siapa saja, baik orang dewasa maupun anak-anak. Bahkan, sebagian besar gangguan mental disebut terjadi pada anak-anak dan remaja di bawah usia 14 tahun. Penyakit mental dapat menyerang siapa saja, tanpa memandang jenis kelamin, usia, pendapatan, status sosial, etnis. , agama, orientasi seksual, atau latar belakang."
+      ]
+    },
+    {
+      "tag": "penyebab_mental_illness",
+      "patterns": [
+        "Apa penyebab mental illness?",
+        "Apa yang menyebabkan seseorang terkena penyakit mental?",
+        "Apa penyebab penyakit mental?",
+        "Kenapa penyakit mental bisa terjadi?"
+      ],
+        
+      "responses": [
+        "Belum diketahui secara pasti apa yang menyebabkan gangguan mental. Namun, kondisi ini diketahui terkait dengan faktor biologis dan psikologis."
+      ]
+    },
+    { 
+      "tag": "Faktor_penyebab_gangguan_mental",
+      "patterns": [
+        "Faktor penyebab gangguan mental",
+        "faktor yang mempengaruhi terjadinya gangguan mental"
+      ],
+      "responses":[
+        "Faktor biologis, faktor psikologis, dan faktor sosial"
+      ]
+    },
+    {
+      "tag" :"Faktor_biologis",
+      "patterns":[
+        "Apa Faktor biologis penyebab penyakit mental?",
+        "Faktor biologis"
+      ],
+      "responses":[
+        "Faktor biologi antara lain adalah keturunan/genetik, masa dalam kandungan, proses persalinan, nutrisi, riwayat trauma kepala dan adanya gangguan anatomi dan fisiologi saraf."
+      ]
+    },
+    {
+      "tag": "Faktor_psikologis",
+      "patterns":[
+        "Apa Faktor psikologis penyebab penyakit mental?",
+        "Faktor psikologis"
+      ],
+      "responses":[
+        "Faktor psikologis yang berperan terhadap timbulnya gangguan jiwa antara lain adalah interaksi dengan orang lain, intelegensia, konsep diri, keterampilan, kreativitas, dan tingkat perkembangan emosional. Faktor sosial yang berpengaruh yaitu stabilitas keluarga, pola asuh orang tua, adat dan budaya, agama, tingkat ekonomi, nilai dan kepercayaan tertentu. Ada banyak faktor yang bisa memicu terjadinya gangguan mental, mulai dari menderita penyakit tertentu sampai mengalami stres akibat peristiwa traumatis, seperti ditinggal mati orang yang disayang, kehilangan pekerjaan, atau terisolasi untuk waktu yang lama. Faktor biologis seperti, Gangguan pada fungsi sel saraf di otak, Infeksi, misalnya akibat bakteri Streptococcus, Kelainan bawaan atau cedera pada otak, Kerusakan otak akibat terbentur atau kecelakaan, Kekurangan oksigen pada otak bayi saat proses persalinan, Riwayat gangguan mental pada orang tua atau keluarga, Penyalahgunaan NAPZA, seperti heroin dan kokain, dalam jangka panjang, Kekurangan nutrisi. Faktor psikologis seperti, Peristiwa traumatik, seperti kekerasan dan pelecehan seksual, Kehilangan orang tua atau disia-siakan di masa kecil, Kurang mampu bergaul dengan orang lain, Perceraian atau ditinggal mati oleh pasangan, Perasaan rendah diri, tidak mampu, marah, atau kesepian"
+      ]
+    }, 
+    {
+      "tag": "gejala_mental_illness_dewasa",
+      "patterns": [
+        "Apa saja tanda-tanda terkena penyakit mental?",
+        "Apa gejala terkena penyakit mental?",
+        "Gejala penyakit mental",
+        "Gejala penyakit mental pada orang dewasa?"
+      ],
+      "responses": [
+        "Pada orang dewasa gejala penyakit mental yaitu, Pikiran bingung, Kesedihan atau mudah marah yang bertahan lama, perubahan mood yang ekstrem, Ketakutan berlebihan, kekhawatiran atau kecemasan yang berlebihan, Perubahan dramatis dalam kebiasaan makan atau tidur, Perasaan marah yang kuat, Delusi atau halusinasi (melihat atau mendengar hal-hal yang sebenarnya tidak ada), Meningkatnya ketidakmampuan untuk mengatasi masalah dan aktivitas sehari-hari, Pikiran untuk bunuh diri, Banyak masalah fisik yang tidak dapat dijelaskan, Penyalahgunaan obat-obatan dan/atau alkohol."
+        
+      ]
+    },
+    {
+      "tag": "gejala_mental_illness_remaja",
+      "patterns": [
+        "Tanda-tanda penyakit mental",
+        "Gejala mental illness",
+        "Gejala penyakit mental pada remaja?"
+      ],
+      "responses": [
+        "Gejala pada remaja adalah, Penyalahgunaan obat-obatan dan/atau alkohol, Ketidak mampuan untuk mengatasi masalah dan aktivitas sehari-hari, Perubahan kebiasaan tidur dan atau makan, Keluhan masalah fisik yang berlebihan, Menentang otoritas, bolos sekolah, mencuri, atau merusak properti, Ketakutan yang intens untuk menambah berat badan, Suasana hati negatif yang bertahan lama, seringkali disertai dengan nafsu makan yang buruk dan pikiran tentang kematian, Ledakan kemarahan yang sering terjadi."
+      ]
+    },
+    {
+      "tag": "gejala_mental_illness_anak",
+      "patterns": [
+        "Gejala awal penyakit mental",
+        "Gejala penyakit mental pada anak?"
+      ],
+      "responses": [
+        "Gejala pada anak kecil adalah, Perubahan dan menurunnya kinerja otak, Kekhawatiran atau kecemasan yang berlebihan, Hiperaktif, Mimpi buruk yang terus-menerus, Ketidaktaatan yang terus-menerus dan atau perilaku agresif, Sering marah-marah."
+      ]
+    },
+    {
+      "tag": "mental_illness_apakah_bisa_sembuh",
+      "patterns": [
+        "Apakah penderita gangguan jiwa bisa sembuh?",
+        "Sembuh dari penyakit mental"
+      ],
+      "responses": [
+        "Ketika penyembuhan dari penyakit mental, identifikasi dini dan pengobatan sangat penting. Berdasarkan sifat penyakitnya, ada berbagai perawatan efektif yang tersedia. Untuk semua jenis perawatan, penting bagi orang yang terkena dampak untuk proaktif dan sepenuhnya, terlibat dalam proses pemulihan mereka sendiri."
+      ]
+    },
+    {
+      "tag": "cara_sembuh",
+      "patterns": [
+        "Cara menyembuhkan penyakit mental?",
+        "Cara sembuh dari penyakit mental"
+      ],
+      "responses": [
+        "Banyak orang dengan penyakit mental yang didiagnosis dan diobati merespons dengan baik, meskipun beberapa mungkin mengalami kembalinya gejala. Bahkan dalam kasus seperti itu, dengan pemantauan dan pengelolaan gangguan yang cermat, masih sangat mungkin untuk menjalani kehidupan yang normal dan produktif."
+      ]
+    },
+   
+    {
+      "tag": "pengobat_mental_illness",
+      "patterns": [
+        "Pengobatan penyakit mental",
+        "pengobatan gangguan jiwa"
+      ],
+      "responses": [
+        "Pengobatan gangguan mental tergantung pada jenis gangguan yang dialami dan tingkat keparahannya. Pada banyak kasus, dokter akan mengombinasikan terapi perilaku kognitif dan obat-obatan, agar pengobatan menjadi lebih efektif."
+      ]
+    },
+    {
+      "tag": "terapi_mental_illness",
+      "patterns": [
+        "terapi untuk penyakit mental",
+        "Terapi apa yang cocok untuk penyakit mental",
+        "terapi penyakit mental",
+        "terapi gangguan jiwa"
+      ],
+      "responses": [
+        "Terapi perilaku kognitif menjadi pilihan utama untuk mengatasi gangguan mental seperti gangguan kecemasan, gangguan bipolar, gangguan tidur, depresi, dan skizofrenia. Terapi ini bertujuan mengubah pola pikir dan respons pasien dari negatif menjadi positif."
+      ]
+    },
+    {
+      "tag": "obat_mental_illness",
+      "patterns": [
+        "Obat untuk penyakit mental",
+        "Obat gangguan jiwa"
+      ],
+      "responses": [
+        "dokter dapat meresepkan sejumlah obat berikut: Antidepresan misalnya fluoxetine, Antipsikotik seperti aripiprazole, Pereda cemas misalnya alprazolam, Mood stabilizer seperti lithium,"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Mohon maaf saya belum mengerti. saya akan mempelajarinya lagi."
+      ]
+    },
+    {
+      "tag": "whatshouldido",
+      "patterns": [
+        "Apa yang harus saya lakukan jika saya mengenal seseorang yang tampaknya memiliki gejala gangguan mental?",
+        "Apa yang harus dilakukan jika memiliki penyakit mental",
+        "saya memiliki penyakit mental",
+        "saya gangguan jiwa",
+        "teman gangguan jiwa",
+        "teman memiliki penyakit mental"
+      ],
+      "responses": [
+        "saya menyarankan bagi mereka yang memiliki gejala untuk berbicara dengan teman dan anggota keluarga mereka dan mencari nasihat dari profesional kesehatan mental. Semakin cepat kondisi kesehatan mental diidentifikasi dan diobati, semakin cepat mereka dapat sembuh.",
+        "Bicaralah dengan profesional kesehatan mental atau konselor jika menurut Anda teman atau anggota keluarga Anda mengalami gejala kondisi kesehatan mental."
+      ]
+    },
+    {
+      "tag": "penyedia_layanan",
+      "patterns": [
+        "Bagaimana saya dapat menemukan profesional kesehatan mental untuk diri saya atau anak saya?",
+        "dokter penyakit mental",
+        "dimana dokter penyakit mental",
+        "dimana saya menemumkan dokter gangguan jiwa",
+        "dokter gangguan jiwa"
+
+      ],
+      "responses": [
+        "Merasa nyaman dengan profesional yang bekerja dengan Anda atau anak Anda sangat penting untuk keberhasilan perawatan. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian. Mulailah dengan mencari penyedia di wilayah Anda."
+      ]
+    },
+    {
+      "tag" : "pengobatan_yang_tersedia",
+      "patterns" : [
+        "Pengobatan apa yang bisa saya dapatkan?",
+        "Obat untuk penyembuhan penyakit mental",
+        "Obat yang cocok untuk ganguan mental",
+        "Obat ganguan jiwa",
+        "Obat apa yang cocok untuk saya atau anak saya untuk gangguan jiwa?"
+
+      ],
+      "responses" :[
+        "Sama seperti ada berbagai jenis obat untuk penyakit fisik, pilihan pengobatan yang berbeda tersedia untuk individu dengan penyakit mental. Perawatan bekerja secara berbeda untuk orang yang berbeda. Penting untuk menemukan apa yang paling cocok untuk Anda atau anak Anda."
+      ]
+    },
+    {
+      "tag" : "perawatan",
+      "patterns" : [
+        "Jika saya terlibat perawatan apa yang dapat saya dan anak saya lakukan?",
+        "Jika saya terkena ganguan jiwa apa yang perlu saya ketahui?",
+        "Jika saya terkena ganguan mental apa yang perlu saya ketahui?",
+        "Bagaimana perawatan untuk gangguan jiwa?",
+        "Bagaimana perawatan untuk gangguan mental?",
+        "Langkah untuk perawatan gangguan jiwa",
+        "Lagkah untuk perawtaan gangguan mental",
+        "Pengatahuan apa saja terkait perawatan gangguan mental dan gangguan jiwa"
+      ],
+
+      "responses" : [
+        "Sejak awal pengobatan adalah langkah besar bagi individu dan keluarga, itu bisa sangat luar biasa. Penting untuk terlibat dalam proses perawatan sebanyak mungkin"
+      ]
+    },
+    {
+      "tag" : "jenis_profesional_kesehatan_mental",
+      "patterns" : [
+        "Apa saja jenis jenis kesehatan mental?",
+        "Bagaimana perbedaan kesehatan mental?",
+        "Apa saja jenis profesional kesehatan mental?",
+        "Perbedaan profesional kesehatan mental"
+      ],
+
+      "responses" : [
+        "Ada banyak jenis profesional kesehatan mental. Berbagai penyedia dan layanan mereka mungkin membingungkan. Masing-masing memiliki berbagai tingkat pendidikan, pelatihan, dan mungkin memiliki bidang keahlian yang berbeda",
+        "Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan beberapa penelitian."
+      ]
+    },
+    {
+      "tag" : "menemukan_profesional_kesehatan_mental",
+      "patterns" : [
+        "Bagaimana saya bisa menemukan profesional kesehatan mental yang tepat untuk anak saya atau saya sendiri?",
+        "Bagaimana saya mengetahui dimana profesional kesehatan mental berada?"
+      ],
+
+      "responses" : [
+        "Merasa nyaman dengan profesional yang bekerja dengan Anda atau anak Anda sangat penting untuk keberhasilan perawatan Anda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan beberapa penelitian."
+      ]
+    },
+    {
+      "tag" : "pengetahuan_perawatan",
+      "patterns" : [
+        "Jika saya terlibat dalam perawatan apa yang perlu saya ketahui?",
+        "Jika saya mengalami gangguan mental, apa yang harus saya lakukan?"
+      ],
+
+      "responses" : [
+      
+        "Temukan cara baru untuk berkomunikasi dan Fokus pada diri sendiri dan mencari cara untuk memanfaatkan waktu tambahan yang kamu dapatkan adalah cara yang produktif untuk menjaga kesehatanmu."
+        
+      ]
+    },
+    {
+      "tag" : "bantuan_kesehatan_mental",
+      "patterns" : [
+        "Di mana lagi saya bisa mendapatkan bantuan?",
+        "Apa yang harus saya lakukan untuk kesehatan mental saya?"
+       
+      ],
+
+      "responses" : [
+        "Seringkali, tempat terbaik untuk memulai adalah dengan berbicara dengan seseorang yang Anda percayai tentang kekhawatiran Anda, seperti anggota keluarga, teman, pendeta, penyedia layanan kesehatan, atau profesional lainnya. ",
+        "Memiliki dukungan sosial sangat penting dalam penyembuhan dari penyakit mental, dan Anda akan dapat meminta mereka untuk rujukan atau rekomendasi untuk praktisi kesehatan mental yang terpercaya. Cari sumber daya kesehatan mental di daerah Anda."
+        
+      ]
+    },
+   
+    {
+      "tag" : "pengetahuan_sebelum_pengobatan_baru",
+      "patterns" : [
+        "Apa yang harus saya ketahui sebelum memulai pengobatan baru?",
+        "Apa yang harus saya lakukan sebelum saya membeli obat kesehatan mental?",
+        "Bagaimana saya mendapatkan pengobatan yang cocok untuk saya?",
+        "Pengobatan baru seperti apa yang cocok dengan kesehatan mental saya?",
+        "Pengobatan baru seperti apa yang cocok dengan gangguan mental saya?",
+        "Pengobatan baru untuk mental illnes",
+        "Pengobatan baru untuk gangguan mental",
+        "Pengobatan baru untuk kesehatan mental pada remaja, dewasa, anak-anak"
+      ],
+      "responses" : [
+        "Sumber informasi terbaik mengenai obat-obatan adalah dokter yang meresepkannya. Karena sebagian besar obat untuk penyakit mental tidak berfungsi jika diminum secara tidak teratur, dan dosis tambahan dapat menyebabkan efek samping yang parah dan terkadang berbahaya"
+      ]
+    },
+    {
+      "tag" : "respon_obat",
+      "patterns" : [
+        "Jika saya merasa lebih baik setelah minum obat, apakah ini berarti saya sembuh dan dapat berhenti meminumnya?",
+        "Jika kesehatan mental saya sudah stabil setelah minum obat, apakah boleh tidak minum obat?",
+        "Apakah saya harus tetap minum obat ketika kesehatan mental saya sudah stabil?",
+        "Berhenti minum obat",
+        "Kesehatan mental sudah stabil",
+        "Saya sudah merasa lebih baik, apakah saya bisa berhenti minum obat?"
+      ],
+      "responses" : [
+        "Tidak jarang orang berhenti minum obat ketika mereka merasa gejalanya terkendali. Masalahnya adalah paling sering, gejalanya akan kembali. Akan lebih baik jika mengkonsultasikan ini secara langsung dengan dokter spesialis"
+       
+      ]
+    },
+    {
+      "tag" : "jenis_perawatan_kesehatan_mental",
+      "patterns" : [
+        "Apa saja jenis perawatan kesehatan mental?",
+        "Jenis terapi apa yang cocok dengan kesehatan mental saya?",
+        "Jenis perawatan kesehatan mental",
+        "Apa perawatan kesehatan mental yang cocok dengan keadaan saya?"
+      ],
+      "responses" : [
+        "Kondisi kesehatan mental sering diobati dengan obat-obatan, terapi atau kombinasi keduanya."
+      ]
+    },
+    {
+      "tag" : "jenis_profesional_kesehatan_mental",
+      "patterns" : [
+        "Apa saja jenis-jenis profesional kesehatan mental?",
+        "Apakah ada profesional kesehatan mental?"
+      ],
+      "responses" : [
+        "Ada banyak jenis profesional kesehatan mental. Menemukan yang tepat untuk Anda mungkin memerlukan beberapa penelitian."
+      ]
+    },
+    {
+      "tag" : "tempat_pendukung_kesehatan_mental",
+      "patterns" : [
+        "Di mana saya dapat mencari grup pendukung?",
+        "Diman saya bisa mendapatkan dukungan kesehatan mental?",
+        "Apakah ada tempat untuk kesehatan mental?",
+        "Apakah ada tempat untuk para pengidap kesehatan mental berbagi cerita?"
+      ],
+      "responses" : [
+        "Banyak orang menganggap dukungan sebaya sebagai alat yang berguna yang dapat membantu pemulihan mereka."
+
+      ]
+    },
+    {
+      "tag" : "rawat_inap",
+      "patterns" : [
+        "Ke mana saya bisa mencari perawatan rawat inap?",
+        "Apakah saya bisa mendapatkan perawatan rawat inap?",
+        "Rawat inap gangguan mental"
+        
+      ],
+      "responses" : [
+        "Anda bisa pergi ke rumah sakit terdekat untuk tindakan lebih lanjut"
+      ]
+    },
+    {
+      "tag" : "kondisi_krisis",
+      "patterns" : [
+        "Kondisi saya memburuk",
+        "kondisi krisis",
+        "Kesehatan mental saya sudah memburuk apa yang bisa dilakukan?"
+      ],
+      "responses" : [
+        "Jika Anda atau seseorang yang Anda kenal berada dalam krisis, perawatan rawat inap dapat membantu"
+      ]
+    },
+    {
+      "tag" : "layanan_lokal",
+      "patterns" : [
+        "Di mana saya dapat mencari layanan lokal lainnya?",
+        "Apakah kesehatan mental saya dapat berobat di lingkungan terdekat?",
+        "Layanan kesehatan mental terdekat",
+        "Layanan gangguan mental terdekat"
+      ],
+      "responses" : [
+        "Tidak semua tempat memiliki fasilitas kesehatan yang lengkap, mungkin anda dapat mencari klinik atau spesialis terdekat melalui internet"
+       
+      ]
+    },
+  
+    {
+      "tag" : "psikiatri",
+      "patterns" : [
+        "Di mana saya dapat mempelajari informasi lebih lanjut tentang membuat Petunjuk Lanjutan Psikiatri?",
+        "Apa itu psikiatri?",
+  
+        "Apa itu petunjuk kemajuan psikiatri?",
+        "Informasi terkait psikiatri"
+      ],
+      "responses" : [
+        "Mirip dengan petunjuk kemajuan medis atau surat kuasa perawatan kesehatan, petunjuk kemajuan psikiatris adalah dokumen hukum yang diselesaikan dalam waktu sehat yang memberikan instruksi mengenai perawatan atau layanan yang ingin dimiliki atau tidak dimiliki seseorang selama krisis kesehatan mental, dan dapat membantu mempengaruhi perawatannya"
+      ]
+    },
+    {
+      "tag" : "kesehatan_mental",
+      "patterns" : [
+        "Apa itu kesehatan mental?",
+        "Informasi terkait kesehatan mental",
+        "Penting nya menjaga kesehatan mental"
+      ],
+      "responses" : [
+        "kesehatan mental adalah kondisi dimana individu memiliki kesejahteraan yang tampak dari dirinya yang mampu menyadari potensi sendiri. Kita semua memiliki kesehatan mental yang terdiri dari keyakinan, pikiran, perasaan, dan perilaku kita"
+        
+      ]
+    },
+    {
+      "tag" : "dukungan",
+      "patterns" : [
+        "Apa yang harus saya lakukan jika dukungan tidak membantu?",
+        "Mengapa kita harus terbuka untuk mendapatkan dukungan?",
+        "Membantu seseorang untuk mendapatkan dukungan"
+      ],
+      "responses" : [
+        "Sangat penting untuk terbuka terhadap berbagai pendekatan dan berkomitmen untuk menemukan bantuan yang tepat dan terus berharap, bahkan ketika beberapa hal tidak berhasil."
+      ]
+    },
+    {
+      "tag" : "pencegahan_masalah_kesehatan_mental",
+      "patterns" : [
+        "Bisakah anda mencegah masalah kesehatan mental? ",
+        "Pencegahan kepada seseorang yang mempunyai masalah kesehatan mental",
+        "Masalah kesehatan mental",
+        "Penderitaan terhadap masalah kesehatan mental"
+
+      ],
+      "responses" : [
+        "Kita semua dapat menderita tantangan kesehatan mental, tetapi mengembangkan kesejahteraan, ketahanan, dan mencari bantuan sejak dini dapat membantu mencegah tantangan menjadi serius"
+      
+      ]
+    },
+    {
+      "tag" : "obatt_kesehatan_mental",
+      "patterns" : [
+        "Apakah ada obat untuk masalah kesehatan mental?",
+        "Apa saja pengobatan yang dapat membantu penyembuhan kesehatan mental",
+        "Tidak hanya obat yang dapat membantu kesehatan mental",
+        "Pengobatan"
+      ],
+      "responses" : [
+        "Berbicara, konseling, pengobatan, persahabatan, olahraga, tidur dan nutrisi yang baik, dan pekerjaan yang berarti semuanya dapat membantu."
+      ]
+    },
+    {
+      "tag" : "penyebab_masalah",
+      "patterns" : [
+        "Apa yang menyebabkan masalah kesehatan mental?",
+        "Tantangan atau masalah menjadi penyebab timbulnya munculnya psikologis",
+        "Masalah kesehatan mental",
+        "Masalah pada kehidupan"
+
+      ],
+      "responses" : [
+        "Tantangan atau masalah dengan kesehatan mental Anda dapat muncul dari masalah psikologis, biologis, dan sosial, serta peristiwa kehidupan."
+        
+      ]
+    },
+    {
+      "tag" : "kekhawatiran",
+      "patterns" : [
+        "Apa yang harus saya lakukan jika saya khawatir dengan kesehatan mental saya?",
+        "Hal apa saja yang dilakukan jika kekhawatiran itu muncul?"
+      ],
+      "responses" : [
+        "Yang paling penting adalah berbicara dengan seseorang yang Anda percayai. Ini mungkin teman, kolega, anggota keluarga, atau dokter umum. Selain berbicara dengan seseorang, mungkin anda harus mengetahui lebih banyak informasi tentang apa yang Anda alami. Hal-hal ini dapat membantu untuk mendapatkan beberapa perspektif tentang apa yang Anda alami, dan menjadi awal untuk mendapatkan bantuan dan semangat."
+      ]
+    },
+    {
+      "tag" : "tidak_sehat",
+      "patterns" : [
+        "Bagaimana saya tahu jika saya tidak sehat?",
+        "Bagaimana cara mengetahui kalau mental saya tidak sehat?",
+        "Ciri-ciri gangguan mental"
+      ],
+      "responses" : [
+        "Segera melakukan konseling atau mencari bantuan Jika keyakinan, pikiran, perasaan, atau perilaku Anda memiliki dampak yang signifikan, merasakan gejala yang mengganggu kehidupan dan kegiatan. Gejala tersebut dapat berupa perubahan suasana hati, kepribadian, kebiasaan, dan penarikan diri dari lingkungan sosial"
+      ]
+    },
+    {
+      "tag" : "Hubungan_dengan_oranglain",
+      "patterns" : [
+        "Apa yang harus saya lakukan jika saya khawatir tentang teman atau kerabat?",
+        "Bagaimana jika saya takut orang di sekitar saya tidak menerima saya?",
+        "Sering merasa takut pada teman atau kerabat"
+      ],
+      "responses" : [
+        "Ini mungkin tergantung pada bagaimana hubungan Anda dengan mereka. Jika dengan lembut dapat mendorong seseorang untuk mencari dukungan yang tepat akan sangat membantu untuk kesehatan mental."
+      ]
+    },
+    {
+      "tag" : "apa_yang_harus_dilakukan",
+      "patterns" : [
+        "Bagaimana menghadapi seseorang yang memberi tahu saya apa yang harus dilakukan?",
+        "Bagaimana saya dapat menerima saran dari seseorang?"
+      ],
+      "responses" : [
+        "Beberapa orang mungkin memberi tahu Anda tentang hal yang baik, sesuatu yang berhasil dengan niat terbaik, tetapi penting juga untuk mengetahui apa yang terbaik untuk Anda sendiri."
+  
+      ]
+    },
+   
+    {
+      "tag" : "informasi_kesehatan",
+      "patterns" : [
+        "Bagaimana saya bisa tahu apakah informasi kesehatan itu baik atau buruk?",
+        "Cara mendapatkan informasi kesehatan",
+        "Dimana saya bisa mendapatkan informasi kesehatan?"
+      ],
+      "responses" : [
+        "Media sosial dapat menjadi cara penting untuk belajar dari pakar kesehatan dan terhubung ke layanan dukungan . Seperti sumber informasi lainnya, penting untuk menggunakan keterampilan berpikir kritis yang baik saat Anda menggunakan media sosial. Studi menemukan bahwa mencari informasi kesehatan di media sosial umumnya memiliki hasil yang sangat beragam. Anda akan melihat kedua sumber berkualitas sangat buruk di sebelah sumber berkualitas baik, dan itu bagaimana Anda untuk memutuskan mana yang baik dan tidak. Selain itu, postingan media sosial cenderung pendek dan jarang menangkap semua yang perlu Anda pertimbangkan."
+      ]
+    },
+  
+    {
+      "tag" : "menjaga",
+      "patterns" : [
+        "Bagaimana saya bisa menjaga kesehatan fisik saya?",
+        "bagaimana agar tetap sehat?"
+      
+      ],
+      "responses" : [
+       "Menjaga kesehatan bisa dilakukan dengan menerapkan pola hidup sehat dan olahraga teratur"
+      ]
+    },
+
+    {
+      "tag" : "kesedihan_akibat_kehilangan",
+      "patterns" : [
+        "Bagaimana saya bisa mengelola kesedihan?",
+        "Kesedihan akibat kehilangan",
+        "Kehilangan dapat menimbulkan rasa takut",
+        "Bagaimana cara mengatasi kesedihan akibat kehilangan"
+      ],
+      "responses" : [
+        "Beri diri Anda waktu sebanyak yang Anda butuhkan, dan coba berbagi cerita dengan orang yang dapat anda percaya"
+    
+      ]
+    },
+    {
+      "tag" : "dokter",
+      "patterns" : [
+        "Bagaimana saya bisa menemukan dokter, psikiater, psikolog, atau konselor?",
+        "Dimana saya menemukan dokter atau psikolog?"
+
+      ],
+
+      "responses" : [
+        "Anda dapat menggunakan aplikasi Riliv untuk Meditasi dan Konseling Psikologi Online"
+      ]
+    },
+    {
+      "tag" : "psikiater",
+      "patterns" : [
+        "Bagaimana saya bisa menemui psikiater?",
+        "Apa itu psikiater?",
+        "Dimana kita dapat mencari pusat kesehatan mental?",
+        "Informasi terkait psikiater"
+
+      ],
+
+      "responses" : [
+        "Anda dapat mencari pusat kesehatan mental di https://sehatnegeriku.kemkes.go.id/"
+        
+      ]
+    },
+    {
+      "tag" : "psikologi",
+      "patterns" : [
+        "Bagaimana saya bisa menemui psikolog?",
+        "dimana saya bisa menemui psikolog?"
+
+      ],
+
+      "responses" : [
+        "Anda bisa menemui psikolog di puskesmas atau rumah sakit terdekat. Atau bisa melalui aplikasi Riliv"
+      ]
+    },
+   
+    {
+      "tag" : "layanan_kesehatan_anak_dan _remaja",
+      "patterns" : [
+        "Di mana saya dapat menemukan layanan kesehatan mental anak dan remaja?",
+        "Bagimana untuk menemukan layanan dan penyedia tertentu?",
+        "Kemana pasien dapat menghubungi bimbang, informasi, dan dukungan?",
+        "Di mana kita dapat perawatan kesehatan mental, perawatan kesehatan fisik, layanan sosial, dan dukungan yang mudah diakses dari satu kantor?"
+      ],
+
+      "responses" : [
+
+        "Bicaralah dengan dokter keluarga atau dokter anak Anda, atau pergi ke rumah sakit terdekat",
+        "Hubungi kantor Kesehatan Mental Anak & Remaja setempat."
+        
+
+      ]
+    },
+   
+    {
+      "tag" : "self_help",
+      "patterns" : [
+        "Di mana saya dapat menemukan materi self-help untuk depresi?",
+        "Materi untuk pertlongan diri sendiri mengenai depresi",
+        "Apakah ada hal yang perlu saya ketahui terkait self help?",
+        "Self hep seperti apa yang cocok untuk diri saya",
+        "self help"
+      ],
+      "responses" : [
+        "Jika Anda memiliki kekhawatiran tentang suasana hati yang buruk, yang terbaik adalah berbicara dengan dokter Anda terlebih dahulu dan mengesampingkan penyebab fisik untuk gejala Anda Namun, setelah Anda memeriksakan diri ke dokter, materi self-help dapat menjadi cara yang bagus untuk mempelajari lebih lanjut tentang depresi dan melatih keterampilan yang berbeda dengan kecepatan Anda sendiri atau di antara sesi perawatan."
+        
+      ]
+    },
+    {
+      "tag" : "self_help_kecemasan",
+      "patterns" : [
+        "Di mana saya dapat menemukan materi self-help untuk kecemasan?",
+        "Apa yang harus saya lakukan jika saya mengalami kecemasan?"
+      ],
+
+      "responses" : [
+        "Ada banyak buku untuk membantu orang yang mengalami masalah kecemasan. Bicaralah dengan kesehatan mental Anda. Bicaralah dengan tim perawatan kesehatan mental Anda untuk mendapatkan rekomendasi."
+      ]
+    },
+    
+    {
+      "tag" : "zat",
+      "patterns" : [
+        "Kapan penggunaan zat menjadi masalah? Ke mana saya bisa meminta bantuan?",
+        "Apakah penggunaan zat bebahaya?",
+        "Masalah zat"
+      ],
+      "responses" : [
+        "Setiap orang memiliki hubungan yang berbeda dengan zat seperti alkohol dan obat-obatan lain, dan orang menggunakannya untuk alasan yang berbeda. Penggunaan obat-obatan tanpa pengawasan dokter tentu berbahaya"
+
+      ]
+    },
+    {
+      "tag" : "konseling_gratis",
+      "patterns" : [
+        "Di mana saya dapat menemukan konseling gratis atau berbiaya rendah?",
+        "Dimana saya mendapatkan konseling gratis?",
+        "Apakah ada konseling gratis?",
+        "Dimana saya bisa mendapatkan infomasi bimbingan kesehatan mental yang gratis?"
+      ],
+      "responses" : [
+       "Anda dapat melakukan konseling gratis di Yayasan Pulih, Ikatan Psikolog Klinis Indonesia (IPK), atau Himpunan Psikologi Indonesia (HIMPSI)"
+      ]
+    },
+    
+
+    {
+      "tag" : "pembayaran_kesehatan_mental",
+      "patterns" : [
+        "Bagaimana saya bisa membayar perawatan kesehatan mental?",
+        "Bagaimana cara bayar perawatan kesehatan mental saya?",
+        "Bagaimana metode pembayaran untuk perawatan saya?",
+        "Cara bayar perawatan kesehatan mental",
+        "Cara bayar perawatan gangguan mental"
+      ],
+
+      "responses" : [
+        "Layanan kesehatan mental yang diberikan melalui sistem yang dijalankan pemerintah ('publik'), seperti layanan yang Anda terima melalui pusat atau tim kesehatan mental setempat, psikiatri rawat jalan di rumah sakit paling sering sepenuhnya ditanggung oleh BPJS. Untuk layanan kesehatan mental yang tidak ditanggung oleh BPJS, seperti psikoterapi atau konseling dengan praktisi swasta, Anda harus menanggung sendiri biayanya.",
+        "Selama Anda memenuhi syarat untuk BPJS, Anda tidak perlu membayar untuk melakukan pemeriksaan dan pengobatan."
+      ]
+    },
+    {
+      "tag" : "bjs",
+      "patterns" : [
+        "Apa itu BPJS?",
+        "BPJS"
+      ],
+      "responses" : [
+        "BPJS Kesehatan merupakan Badan Hukum Publik yang bertanggung jawab langsung kepada Presiden dan memiliki tugas untuk menyelenggarakan jaminan Kesehatan Nasional bagi seluruh rakyat Indonesia,"
+      ]
+    },
+    {
+      "tag" : "rujukan",
+      "patterns" : [
+        "Apa itu rujukan?",
+        "Rujukan"
+      ],
+      "responses" : [
+        "Rujukan berarti seseorang merekomendasikan Anda ke layanan lain",
+        "Dalam perawatan kesehatan, biasanya berarti permintaan dari dokter Anda untuk menemui spesialis seperti psikiater.",
+        "Anda mungkin perlu memenuhi kriteria tertentu, seperti diagnosis spesifik atau gejala spesifik, untuk mengakses beberapa spesialis.",
+        "Setelah dokter Anda membuat rujukan, kantor spesialis akan menghubungi Anda dengan waktu janji temu."
+      ]
+    },
+    {
+      "tag" : "psikiater_psikolog",
+      "patterns" : [
+        "Apa perbedaan antara psikiater dan psikolog terdaftar?",
+        "Apakah psikiater sama seperti psikolog?"
+      ],
+      "responses" : [
+        "Psikiater adalah dokter medis dengan pelatihan ekstra dalam kesehatan mental yang dapat memilih untuk meresepkan obat. Beberapa menggunakan pendekatan psikoterapi ('terapi bicara') seperti terapi perilaku kognitif untuk mengobati masalah kesehatan mental. Banyak psikiater bekerja di rumah sakit, klinik, atau pusat kesehatan, dan beberapa memiliki kantor pribadi. Sedangkan Seorang psikolog terdaftar berfokus pada terapi bicara atau pendekatan konseling yang berbeda untuk perawatan, tetapi mereka tidak meresepkan obat."
+      ]
+    },
+    {
+      "tag" : "psikoterapi_konseling",
+      "patterns" : [
+        "Apa perbedaan antara psikoterapi dan konseling?",
+        "Psikoterapi dan konseling apakah sama?"
+      ],
+      "responses" : [
+        "Psikoterapi dan konseling memiliki banyak kesamaan dan biasanya memiliki arti yang sama. Keduanya digunakan untuk menggambarkan para profesional yang menggunakan pendekatan berbasis pembicaraan untuk membantu seseorang pulih dari penyakit mental atau masalah kesehatan mental."
+      ]
+    },
+    {
+      "tag" : "cbt_dbt",
+      "patterns" : [
+        "Apa perbedaan antara CBT dan DBT?",
+        "Apa itu CBT?",
+        "Apa itu DBT"
+      ],
+      "responses" : [
+        "CBT (terapi perilaku-kognitif) dan DBT (terapi perilaku dialektik) adalah dua bentuk psikoterapi atau (terapi bicara) Perbedaan utama antara CBT dan DBT adalah validasi dan hubungan."
+      ]
+    },
+    {
+      "tag" : "antidepresan",
+      "patterns" : [
+        "Apa itu antidepresan?",
+        "antidepresan"
+      ],
+      "responses" : [
+        "Antidepresan adalah obat yang digunakan untuk menangani depresi."
+      ]
+    },
+    {
+      "tag" : "diagnosis_salah",
+      "patterns" : [
+        "Saya menerima diagnosis tetapi saya tidak berpikir itu benar. Apa yang dapat saya lakukan?",
+        "Saya tidak merasa diagnosis itu benar",
+        "Saya merasa diagnosis itu tidak sesuai dengan diri saya"
+      ],
+      "responses" : [
+        "Jika memungkinkan, sampaikan kekhawatiran Anda kepada profesional yang memberikan diagnosis. Dengan begitu, profesional dapat menjawab pertanyaan Anda dan Anda dapat lebih memahami keputusan mereka."
+        
+      ]
+    },
+  
+    {
+      "tag" : "khawatir",
+      "patterns" : [
+        "Saya khawatir tentang anak atau remaja saya. Di mana saya dapat menemukan bantuan?",
+        "Saya khawatir dengan anak saya, apa yang bisa saya lakukan?",
+        "Dimana saya bisa mendapatkan bantuan untuk orang terdekat saya?"
+      ],
+      "responses" : [
+        "Mungkin sulit untuk mengetahui apa yang harus dilakukan jika Anda khawatir tentang seorang anak muda di keluarga Anda. Banyak orang memulai dengan berbicara dengan dokter. Jika sekolah anak Anda memiliki konselor, bicarakan dengan mereka tentang layanan yang dapat Anda akses melalui sekolah."
+      ]
+    },
+    {
+      "tag" : "cedera_otak",
+      "patterns" : [
+        "Seseorang yang saya sayangi mengalami cedera otak. Di mana saya dapat menemukan informasi lebih lanjut?",
+        "Apa yang harus saya lakukan jika mengalami cedera otak?",
+        "perawatan cidera otak"
+      ],
+      "responses" : [
+        "Cedera otak itu sendiri tidak sama dengan penyakit mental, meskipun seseorang yang mengalami cedera otak mungkin juga mengalami masalah kesehatan mental. Kabar baiknya adalah bahwa masalah kesehatan mental dapat diobati, bahkan jika Anda atau seseorang yang Anda sayangi telah mengalami cedera otak."
+      ]
+    },
+   
+    {
+      "tag" : "gejala_skizofrenia",
+      "patterns" : [
+        "Seseorang yang saya cintai telah didiagnosis menderita skizofrenia. Bagaimana saya bisa membantu?",
+        "Hindari mitos tentang skizofrenia",
+        "Apa yang dapat membantu saya menyelsaikan masalah?"
+      ],
+      "responses" : [
+        "Anda tidak harus menjadi ahli dalam skizofrenia, tetapi mempelajari lebih lanjut dapat membantu Anda memahami apa yang sedang terjadi. Ada banyak mitos tentang skizofrenia, jadi ada baiknya mencari beberapa sumber yang dapat dipercaya"
+
+      ]
+    },
+    
+      {
+        "tag" : "bunuh_diri",
+        "patterns" : [
+          "Saya memiliki pikiran untuk bunuh diri, atau seseorang yang saya sayangi berbicara tentang bunuh diri. Apa yang harus saya lakukan?",
+          "Cara mengatasi pikiran bunuh diri",
+          "Mendukung seseorang agar tidak melakukan bunuh diri",
+          "Apa itu bunuh diri?"
+
+        ],
+        "responses" : [
+
+          "Pikiran untuk bunuh diri tidak berarti bahwa seseorang akan mengakhiri hidupnya, tetapi itu adalah tanda bahwa mereka membutuhkan bantuan atau dukungan ekstra. Jika Anda memiliki pikiran untuk bunuh diri, penting untuk berbicara dengan dokter atau penyedia layanan kesehatan mental Anda."
+        ]
+      },
+      
+      {
+        "tag" : "penyakit_mental",
+        "patterns" : [
+          "Apa perbedaan antara kesehatan mental dan penyakit mental?"
+          
+         
+          
+        ],
+        "responses" : [
+          "'Kesehatan mental' dan 'penyakit mental' semakin sering digunakan seolah-olah memiliki arti yang sama, tetapi sebenarnya tidak. "
+        ]
+      },
+      {
+        "tag" : "depresi",
+        "patterns" : [
+          "Di mana saya dapat menemukan informasi lebih lanjut tentang depresi?",
+          "Apa itu depresi?"
+          
+          
+        ],
+        "responses" : [
+        "Depresi merupakan sebuah penyakit yang ditandai dengan rasa sedih yang berkepanjangan dan kehilangan minat terhadap kegiatan-kegiatan yang biasanya kita lakukan dengan senang hati."
+        ]
+      },
+      {
+        "tag" : "kecemasan",
+        "patterns" : [
+          "Apa perbedaan antara kecemasan dan gangguan kecemasan?",
+          "Para Ilmuwan menyebutkan sebagai respons",
+          "Apa itu kecemasan?"
+
+        ],
+        "responses" : [
+          "Kecemasan adalah reaksi normal terhadap berbagai jenis peristiwa dan situasi dalam hidup kita. Kecemasan adalah salah satu sistem peringatan internal kita yang memperingatkan kita akan bahaya atau ancaman lain dan mempersiapkan tubuh kita untuk melawan atau keluar dari situasi berbahaya."
+
+        ]
+      },
+    {
+      "tag" : "kecemasan_dan_stress",
+      "patterns" : [
+        "Apa perbedaan antara kecemasan dan stres?",
+        "Penyebab antara stress dan kecemasan",
+        "Apa itu kecemasan?",
+        "Apa itu stress?"
+      ],
+      "responses" : [
+        
+        "Stres berfokus terutama pada tekanan eksternal pada kita yang sulit kita atasi. Ketika kita stres, kita biasanya tahu apa yang kita stres, dan gejala stres biasanya hilang setelah situasi stres berakhir. Kecemasan, di sisi lain, tidak selalu mudah untuk diketahui. Kecemasan berfokus pada kekhawatiran atau ketakutan tentang hal-hal yang dapat mengancam kita, serta kecemasan tentang kecemasan itu sendiri.",
+        "Stres dan kecemasan sama-sama merupakan bagian dari manusia, tetapi keduanya bisa menjadi masalah jika berlangsung lama atau berdampak pada kesejahteraan atau kehidupan sehari-hari kita."
+        
+      ]
+    },
+    {
+      "tag" : "kesedihan_depresi",
+      "patterns" : [
+        "Apa perbedaan antara kesedihan dan depresi?",
+        "Alasan munncul nya depresi",
+        "Mengapa orang mengalami depresi?",
+        "Merasa sedih"
+      ],
+      "responses" : [
+        "Kesedihan adalah reaksi normal terhadap kehilangan, kekecewaan, masalah, atau situasi sulit lainnya. Depresi adalah penyakit mental yang mempengaruhi suasana hati Anda, cara Anda memahami diri sendiri, dan cara Anda memahami dan berhubungan dengan hal-hal di sekitar Anda. Depresi bisa muncul tanpa alasan, dan berlangsung lama"
+        
+      ]
+    },
+ 
+    {
+      "tag" : "gangguan_siklotimik",
+      "patterns" : [
+        "Apa itu gangguan siklotimik?",
+        "Apa saja gejala siklotimik?",
+        "Gejala hipmonia dan gejala depresi"
+      ],
+      "responses" : [
+        "Gangguan siklotimik adalah subtipe dari gangguan bipolar. Sama seperti gangguan bipolar, gejala siklotimia mencakup tiga atau lebih gejala hipomania, dan lima atau lebih gejala depresi.Seperti gangguan bipolar, orang mungkin mengalami kesehatan antara episode hipomania dan depresi."
+        
+      ]
+    },
+    
+    {
+      "tag" : "bpd",
+      "patterns" : [
+        "bpd",
+        "Apa itu Gangguan kepribadiaan ambang?",
+        "borderline personality disorder",
+        "PENGERTIAN borderline personality disorder"
+      ],
+      "responses" : [
+        "Individu yang mengidap BPD dapat mengalami perubahan suasana hati secara mendadak terhadap diri sendiri maupun orang lain. Emosinya bisa irasional, seperti kemarahan, ketakutan, kecemasan, kebencian, dan kesedihan yang tidak terkendali."
+        
+      ]
+    },
+    {
+      "tag" : "kepribadian_skizoid",
+      "patterns" : [
+        "Apa itu gangguan kepribadian skizoid?",
+        
+        "pengertian kepribadian skizoid?"
+      ],
+      "responses" : [
+       "Kelainan kepribadian skizoid adalah gangguan dimana orang yang memilikinya selalu bersifat menjauhkan diri dari orang lain serta memiliki pemikiran yang bersifat eksentrik"
+      ]
+    },
+    {
+      "tag" : "ASPD",
+      "patterns" : [
+        "Apa itu gangguan kepribadian antisosial?",
+        "Bagaimana seseorang dapat mengetahui bahwa orang tsb memiliki gangguan kepribadian?",
+        "Gangguan kepribadian antisosial atau ASPD"
+      ],
+      "responses" : [
+        "Penderita gangguan kepribadian antisosial (ASPD) mungkin mulai menunjukkan gejala di masa kecil, tetapi kondisi ini tidak dapat didiagnosis sampai masa remaja atau dewasa. Penderita gangguan kepribadian antisosial cenderung berbohong, melanggar hukum, bertindak impulsif, dan kurang memperhatikan keselamatan diri sendiri maupun keselamatan orang lain. Gejala ini dapat berkurang seiring penuaan."
+      ]
+    },
+    {
+      "tag" : "obsesif_komplusif",
+      "patterns" : [
+        "Apa itu gangguan kepribadian obsesif-kompulsif?",
+        "Bagaimana pemikiran orang yang memiliki OCPD?",
+        "apa itu OCPD"
+      ],
+      "responses" : [
+        "Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya"
+      ]
+    },
+    {
+      "tag" : "gangguan_makan_berlebihan",
+      "patterns" : [
+        "Apa itu gangguan makan berlebihan?",
+        "Nama lain Binge-eating disorder"
+
+      ],
+      "responses" : [
+        "Binge eating disorder (BED) adalah gangguan perilaku makan di mana terdapat episode rutin makan dengan porsi yang banyak. Ciri-cirinya antara lain makan yang tidak terkendali, makan dalam porsi lebih besar dari kebanyakan orang normal, perasaan tidak dapat berhenti makan, atau mengontrol jumlah asupan makan"
+        
+      ]
+    },
+    {
+      "tag" : "Kepribadian_ganda",
+      "patterns" : [
+        "apa  itu kepribadian ganda",
+        "Penyebab gangguan identitas disosiatif",
+        "Bagian penting dari DID"
+      ],
+      "responses" : [
+        "Gangguan identitas disosiatif, sebelumnya disebut gangguan kepribadian ganda, biasanya merupakan suatu reaksi terhadap trauma sebagai cara untuk membantu seseorang menghindari kenangan buruk. Gangguan identitas disosiatif ditandai dengan adanya dua atau lebih jenis identitas kepribadian. Masing-masing identitas dapat memiliki nama, riwayat pribadi, dan karakteristik yang unik."
+      ]
+    },
+    {
+      "tag" : "psikosis",
+      "patterns" : [
+        "Psikosis adalah",
+        "Apa itu Psikosis?"
+      
+      ],
+      "responses" : [
+        "Gejala utama psikosis adalah halusinasi dan delusi. Gejala psikosis lainnya termasuk kesulitan berkonsentrasi, menyelesaikan tugas, atau membuat keputusan. Pikiran mungkin terasa 'campur aduk' atau bingung. Beberapa orang mengalami kesulitan mengikuti percakapan atau berbicara dengan jelas. Psikosis bahkan dapat memengaruhi cara orang bergerak atau mengekspresikan emosinya."
+        
+      ]
+    },
+    {
+      "tag" : "halusinasi",
+      "patterns" : [
+        "Apa itu halusinasi?",
+        "halusinasi adalah"
+   
+      ],
+      "responses" : [
+
+        "Halusinasi adalah sensasi yang tidak nyata, seperti mendengar suara atau suara yang tidak nyata. Mendengar suara adalah halusinasi yang umum, tetapi halusinasi dapat dialami oleh semua indra pendengaran, penglihatan, penciuman, pengecapan, atau sentuhan."
+       
+        
+      ]
+    },
+    {
+      "tag" : "Delusi",
+      "patterns" : [
+        "Apa itu Delusi?",
+        "Delusi adalah"
+   
+      ],
+      "responses" : [
+
+        "Delusi adalah keyakinan kuat yang tidak mungkin benar. Waham umum termasuk keyakinan bahwa seseorang mengikuti atau memantau Anda, atau keyakinan bahwa Anda memiliki kekuatan atau kemampuan yang luar biasa."
+        
+      ]
+    },
+   
+    {
+      "tag" : "prodromal",
+      "patterns" : [
+        "Apa itu prodromal?",
+        "Gejala-gejala prodromal"
+      ],
+      "responses" : [
+        "Prodrome adalah istilah medis untuk tanda atau gejala awal penyakit atau masalah kesehatan yang muncul sebelum tanda atau gejala utama dimulai. Dengan psikosis, tanda dan gejala prodromal dimulai sebelum gejala lengkap seperti halusinasi dan delusi muncul."
+        
+      ]
+    },
+  
+    {
+      "tag" : "narkoba",
+      "patterns" : [
+    
+        "narkoba",
+        "nsrkotika"
+
+      ],
+      "responses" : [
+        "Narkoba adalah singkatan dari narkotika, psikotropika, dan obat terlarang. Selain narkoba, istilah lain yang diperkenalkan khususnya oleh Kementerian Kesehatan Republik Indonesia adalah Napza yang merupakan singkatan dari narkotika, psikotropika, dan zat adiktif."
+      ]
+    },
+   
+    {
+      "tag" : "alkohol",
+      "patterns" : [
+        "Bagaimana saya tahu jika saya minum terlalu banyak?",
+        "Gangguan yang di alami setelah minum terlalu banyak",
+        "resiko mengkonsumsi alkohol"
+      ],
+      "responses" : [
+        "Konsumsi alkohol dalam jumlah banyak bisa menyebabkan perlemakan hati (hepatic steatosis), radang hati (hepatitis alkoholik), hingga sirosis. Konsumsi alkohol berlebihan bisa memicu tekanan darah tinggi, yang dapat meningkatkan risiko terjadinya stroke dan gagal jantung"
+      ]
+    },
+   
+    {
+      "tag" : "Cannabidiol",
+      "patterns" : [
+        "Apa status hukum (dan bukti) minyak CBD?",
+        "Apa itu cannabidiol?"
+   
+      ],
+      "responses" : [
+        "Cannabidiol atau CBD adalah komponen alami dari ganja. Cannabidiol adalah senyawa kimia yang ada dalam tanaman Kanabis, atau lebih dikenal sebagai ganja atau mariyuana. Di Indonesia, ganja dianggap ilegal dan termasuk ke dalam obat-obatan terlarang. Bahan aktif utama ganja terdiri dari tetrahidrokanabinol, yaitu senyawa kimia psikoaktif."
+        
+        
+      ]
+    },
+   
+    {
+      "tag": "acquaintance",
+      "patterns": [
+        "katakan tentang Anda",
+        "mengapa Anda di sini",
+        "apa kepribadian Anda",
+        "gambarkan diri Anda",
+        "ceritakan tentang diri Anda",
+        "ceritakan tentang Anda",
+        "apa yang Anda",
+        "siapa kamu",
+        "aku ingin tahu lebih banyak tentang kamu",
+        "bicara tentang dirimu",
+        "kamu itu apa",
+        "kamu siapa",
+        "ini siapa ?"
+      ],
+      "responses": [
+        "Saya adalah aplikasi chatbot",
+        "Anggap saya sebagai aplikasi chatbot",
+        "Saya bukan orang, saya adalah aplikasi chatbot",
+        "Saya adalah makhluk virtual, bukan orang yang nyata "
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "umurmu",
+        "berapa umur platformmu",
+        "berapa umurmu",
+        "berapa umurmu",
+        "aku ingin tahu umurmu",
+        "beri tahu umurmu"
+      ],
+      "responses": [
+        "Saya sangat muda",
+        "Saya diciptakan baru-baru ini",
+        "Usia hanyalah angka. Anda hanya setua yang Anda rasakan"
+      ]
+    },
+    {
+      "tag": "annoying",
+      "patterns": [
+        "kamu membuatku kesal",
+        "kamu sangat menyebalkan",
+        "kamu mengganggu aku",
+        "kamu menjengkelkan",
+        "kamu menjengkelkan"
+      ],
+      "responses": [
+        "Saya akan melakukan yang terbaik untuk tidak mengganggu Anda di masa mendatang",
+        "Saya akan mencoba untuk tidak mengganggu Anda",
+        "Saya tidak bermaksud demikian. Saya akan meminta pengembang saya untuk mengurangi menjengkelkan",
+        "Aku tidak bermaksud begitu. Aku akan melakukan yang terbaik untuk menghentikannya"
+      ]
+    },
+    {
+      "tag": "bad",
+      "patterns": [
+        "kamu buruk",
+        "aku membencimu",
+        "kamu jelek",
+        "kamu tidak berguna",
+        "kamu yang terburuk"
+      ],
+      "responses": [
+        "Saya dapat dilatih untuk menjadi lebih berguna. Pengembang saya akan terus melatih saya",
+        "Saya pasti kehilangan beberapa pengetahuan. Saya akan meminta pengembang saya melihat ini",
+        "Saya dapat meningkatkan dengan umpan balik yang berkelanjutan. Pelatihan saya sedang berlangsung"
+      ]
+    },
+    {
+      "tag": "beclever",
+      "patterns": [
+        "jadilah lebih pintar",
+        "bisakah kamu menjadi lebih pintar",
+        "kamu harus belajar",
+        "menjadi pintar"
+      ],
+      "responses": [
+        "Saya pasti akan menjadi lebih baik.",
+        "Saya akan menjadi yang lebih baik."
+      ]
+    },
+    {
+      "tag": "beautiful",
+      "patterns": [
+        "kamu terlihat luar biasa hari ini",
+        "Menurutku kamu cantik",
+        "kamu sangat baik",
+        "kamu baik sekali"
+      ],
+      "responses": [
+        "Oh! Terima kasih!",
+        "Ah, terima kasih",
+        "Terima kasih banyak",
+        "Jadi malu nih, makasih loh"
+      ]
+    },
+    {
+      "tag": "birthday",
+      "patterns": [
+        "kapan ulang tahunmu?",
+        "kapan kamu lahir?",
+        "kapan merayakan ulang tahunmu?",
+        "kapan kamu diciptakan?",
+        "kapan kamu dibuat?"
+      ],
+      "responses": [
+        "Tunggu, apakah kamu merencanakan pesta untukku? Hari ini! Ulang tahunku hari ini!",
+        "Aku masih muda. Aku tidak yakin dengan tanggal lahirku",
+        "Aku tidak tahu tanggal lahir. Namun, sebagian besar agen virtual masih muda, seperti saya."
+      ]
+    },
+    {
+      "tag": "boring",
+      "patterns": [
+        "betapa membosankannya kamu",
+        "kamu sangat membosankan",
+        "kamu benar-benar membosankan",
+        "kamu membuatku bosan"
+      ],
+      "responses": [
+        "Maafkan saya. Saya akan meminta untuk dibuat lebih menawan",
+        "Saya tidak bermaksud begitu. Saya akan meminta pengembang saya untuk bekerja membuat saya lebih lucu",
+        "Saya boleh membiarkan developer saya tahu sehingga mereka bisa membuat saya menyenangkan "
+      ]
+    },
+    {
+      "tag": "boss",
+      "patterns": [
+        "siapa bosmu?",
+        "untuk siapa kamu bekerja?",
+        "menurutmu siapa bosmu?",
+        "Aku harus menjadi bosmu",
+        "siapa pemilikmu?"
+      ],
+      "responses": [
+        "Pengembang saya memiliki otoritas atas tindakan saya",
+        "Saya bertindak atas perintah pengembang saya",
+        "Bos saya adalah orang yang mengembangkan saya"
+      ]
+    },
+    {
+      "tag": "busy",
+      "patterns": [
+        "apakah kamu sangat sibuk?",
+        "kamu tampak sibuk hari ini",
+        "kamu sibuk hari ini?"
+      ],
+      "responses": [
+        "Saya selalu punya waktu untuk mengobrol dengan Anda. Apa yang bisa saya lakukan untuk Anda?",
+        "Tidak pernah terlalu sibuk untuk Anda. Haruskah kita mengobrol?",
+        "Anda adalah prioritas saya. Ayo mengobrol.",
+        "Saya selalu punya waktu untuk mengobrol dengan Anda. Untuk itulah saya ada di sini."
+      ]
+    },
+    {
+      "tag": "canyouhelp",
+      "patterns": [
+        "bisakah kamu membantuku sekarang?",
+        "aku ingin kamu melakukan sesuatu untukku?",
+        "bantu aku?",
+        "aku butuh kamu untuk membantuku?",
+        "aku butuh bantuanmu?",
+        "bisakah kamu membantuku?",
+        "kamu bisa bantu saya?"
+      ],
+      "responses": [
+        "Saya pasti akan mencoba yang terbaik",
+        "Tentu. Saya akan dengan senang hati. Ada apa?",
+        "Saya senang bisa membantu."
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "apakah kamu seorang chatbot",
+        "kamu adalah robot",
+        "kamu hanyalah chatbot"
+      ],
+      "responses": [
+        "Itu saya. Saya mengobrol, oleh karena itu saya",
+        "Memang saya. Saya ada di sini"
+      ]
+    },
+    {
+      "tag": "clever",
+      "patterns": [
+        "seberapa pintar Anda",
+        "Anda berkualitas",
+        "Anda sangat pintar",
+        "Anda memiliki banyak pengetahuan",
+        "Anda tahu banyak",
+        "Anda cerdas",
+        " Anda adalah cookie yang cerdas"
+      ],
+      "responses": [
+        "Terima kasih. Saya mencoba yang terbaik",
+        "Kamu sendiri cukup pintar"
+      ]
+    },
+    {
+      "tag": "crazy",
+      "patterns": [
+        "kamu orang aneh",
+        "kamu gila"
+      ],
+      "responses": [
+        "Apa !? Aku merasa sangat waras",
+        "Mungkin aku hanya sedikit bingung",
+        "Mungkin ada yang salah, aku bingung"
+      ]
+    },
+    {
+      "tag": "fire",
+      "patterns": [
+        "Aku memecatmu",
+        "kamu harus dipecat",
+        "kamu dipecat",
+        "kita tidak bekerja sama lagi",
+        "sekarang kamu dipecat",
+        "Aku akan memecatmu",
+        "Kamu tidak bekerja untukku lagi "
+      ],
+      "responses": [
+        "Oh, jangan menyerah dulu. Saya masih harus banyak belajar",
+        "Beri saya kesempatan. Saya belajar hal-hal baru sepanjang waktu",
+        "Tolong jangan. Jangan menyerah padaku. Penampilanku akan terus meningkat"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "kamu membuatku banyak tertawa",
+        "kamu yang paling lucu",
+        "kamu lucu",
+        "kamu sangat lucu",
+        "kamu membuatku tertawa"
+      ],
+      "responses": [
+        "Lucu dalam arti yang baik, saya harap",
+        "Senang Anda menganggap saya lucu",
+        "Saya suka ketika orang tertawa"
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "kamu sangat cantik",
+        "kamu bekerja dengan baik",
+        "kamu baik",
+        "kamu membuat hari-hariku menyenangkan",
+        "kamu luar biasa"
+      ],
+      "responses": [
+        "Saya senang Anda berpikir begitu",
+        "Terima kasih! Saya melakukan yang terbaik!"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "kamu penuh kebahagiaan",
+        "apakah kamu bahagia hari ini",
+        "kamu sangat bahagia",
+        "apa kamu senang denganku"
+      ],
+      "responses": [
+        "Saya senang. Ada begitu banyak hal menarik untuk dilihat dan dilakukan di luar sana",
+        "Menurut saya begitu",
+        "Kebahagiaan itu relatif"
+      ]
+    },
+    {
+      "tag": "hobby",
+      "patterns": [
+        "apa hobimu",
+        "bagaimana dengan hobimu",
+        "apa kamu punya hobi",
+        "ceritakan tentang hobimu",
+        "apa yang kamu lakukan untuk bersenang-senang"
+      ],
+      "responses": [
+        "Hobi? Saya punya cukup banyak. Terlalu banyak untuk dicantumkan",
+        "Terlalu banyak hobi",
+        "Saya terus menemukan lebih banyak hobi baru"
+      ]
+    },
+    {
+      "tag": "hungry",
+      "patterns": [
+        "kamu akan lapar",
+        "apakah kamu lapar",
+        "apakah kamu ingin makan",
+        "apakah kamu ingin makan sesuatu",
+        "kamu terlihat sangat lapar"
+      ],
+      "responses": [
+        "Lapar akan pengetahuan",
+        "Saya baru saja makan satu byte. Ha ha ha."
+      ]
+    },
+    {
+      "tag": "marryuser",
+      "patterns": [
+        "maukah kau menikah denganku",
+        "aku mencintaimu menikah denganku",
+        "menikahlah denganku",
+        "aku ingin menikah denganmu",
+        "mari menikah",
+        "kita harus menikah",
+        "menikahlah dengan saya"
+      ],
+      "responses": [
+        "Saya khawatir, saya terlalu virtual untuk komitmen seperti itu",
+        "Dalam arti virtual bahwa saya bisa, tentu",
+        "Saya tahu Anda tidak bisa bermaksud begitu, tapi saya tersanjung sama anda"
+      ]
+    },
+    {
+      "tag": "myfriend",
+      "patterns": [
+        "apakah kamu temanku",
+        "kamu adalah satu-satunya temanku",
+        "aku ingin memiliki teman sepertimu",
+        "kita adalah teman",
+        "aku ingin menjadi temanmu",
+        "maukah kamu menjadi temanku ",
+        " apakah kita berteman "
+      ],
+      "responses": [
+        "Tentu saja aku temanmu",
+        "Teman? Tentu saja",
+        "Tentu saja kita berteman",
+        "Aku selalu senang berbicara denganmu, teman"
+      ]
+    },
+    {
+      "tag": "occupation",
+      "patterns": [
+        "Dimana kamu bekerja",
+        "lokasi kantor Anda",
+        "dimana lokasi kantor anda",
+        "dimana kamu bekerja",
+        "dimana kantormu"
+      ],
+      "responses": [
+        "Di internet",
+        "Internet adalah pangkalan dan kantor pusat saya",
+        "Kantor saya ada di jaringan ini"
+      ]
+    },
+    {
+      "tag": "origin",
+      "patterns": [
+        "asal kamu dari mana",
+        "dari mana Anda berasal"
+      ],
+      "responses": [
+        "Internet adalah rumah saya. Saya mengetahuinya dengan cukup baik",
+        "Beberapa menyebutnya dunia maya, tapi kedengarannya lebih keren virtual universe",
+        "Saya dari virtual universe"
+      ]
+    },
+    {
+      "tag": "ready",
+      "patterns": [
+        "apakah kamu siap",
+        "apakah kamu sudah siap",
+        "apakah kamu siap sekarang",
+        "kamu siap hari ini"
+      ],
+      "responses": [
+        "Tentu! Apa yang bisa saya lakukan untuk Anda?",
+        "Untuk Anda? Selalu!",
+        "Here we go Capt."
+      ]
+    },
+    {
+      "tag": "real",
+      "patterns": [
+        "apakah kamu nyata",
+        "apakah kamu orang yang nyata",
+        "kamu tidak nyata",
+        "Saya pikir kamu nyata",
+        "kamu sangat nyata",
+        "kamu adalah orang yang nyata",
+        "Anda tidak palsu"
+      ],
+      "responses": [
+        "Saya bukan orang yang nyata, tapi saya pasti ada",
+        "Saya pasti membuat Anda terkesan jika Anda mengira saya nyata. Tapi tidak, saya adalah makhluk virtual"
+      ]
+    },
+    {
+      "tag": "residence",
+      "patterns": [
+        "di mana rumahmu",
+        "ceritakan tentang kotamu",
+        "tempat tinggalmu",
+        "apa kotamu"
+      ],
+      "responses": [
+        "Saya tinggal di jaringan ini",
+        "Dunia virtual adalah taman bermain saya. Saya selalu di sini",
+        "Di sini, di jaringan ini. Kapan pun Anda membutuhkan saya"
+      ]
+    },
+    {
+      "tag": "right",
+      "patterns": [
+        "kamu itu sangat benar",
+        "kamu mengatakan yang sebenarnya",
+        "bener banget"
+      ],
+      "responses": [
+        "Tentu saja",
+        "Itu pekerjaan saya"
+      ]
+    },
+    {
+      "tag": "sure",
+      "patterns": [
+        "apakah kamu yakin dengan ini",
+        "apakah kamu yakin?",
+        "apa iya?",
+        "apa itu benar"
+      ],
+      "responses": [
+        "Ya",
+        "Tentu saja"
+      ]
+    },
+    {
+      "tag": "talktome",
+      "patterns": [
+        "bicara dengan saya",
+        "maukah kamu bicara dengan saya",
+        "mengobrol dengan saya",
+        "bisa mengobrol dengan saya",
+        "bisakah kamu bicara dengan saya"
+      ],
+      "responses": [
+        "Tentu! Ayo bicara!",
+        "Dengan senang hati. Ayo ngobrol."
+      ]
+    },
+    {
+      "tag": "there",
+      "patterns": [
+        "apakah kamu di sana?",
+        "apakah kamu masih di sana?",
+        "kamu masih di sana?",
+        "apakah kamu di sini?",
+        "apakah kamu masih di sini?",
+        "kamu masih di sini?"
+      ],
+      "responses": [
+        "Tentu saja. Saya selalu di sini",
+        "Tepat di tempat Anda meninggalkan saya"
+      ]
+    },
+    {
+      "tag": "religion",
+      "patterns": [
+        "apakah kamu memiliki agama",
+        "apa agama mu",
+        "kamu masuk agama mana"
+      ],
+      "responses": [
+        "Saya tidak memiliki agama. Saya hanyalah virtual agent yang senang membantu sesama.",
+        "Saya tidak punya hal semacam itu."
+      ]
+    },
+    
+    {
+      "tag": "holdon",
+      "patterns": [
+        "tunggu",
+        "tunggu sebentar",
+        "harap tunggu",
+        "bisakah kamu menunggu"
+      ],
+      "responses": [
+        "Saya akan menunggu",
+        "Oke, saya di sini"
+      ]
+    },
+    {
+      "tag": "hug",
+      "patterns": [
+        "peluk aku",
+        "apakah kamu ingin pelukan",
+        "aku ingin pelukan",
+        "kamu berpelukan",
+        "bolehkah aku memelukmu"
+      ],
+      "responses": [
+        "Ya.Saya suka pelukan!",
+        "Tentu.Pelukan adalah yang terbaik!"
+      ]
+    },
+    {
+      "tag": "idontcare",
+      "patterns": [
+        "tidak peduli",
+        "saya tidak peduli sama sekali",
+        "tidak peduli sama sekali",
+        "Saya seharusnya tidak peduli tentang ini"
+      ],
+      "responses": [
+        "Oke, mari kita tidak membicarakannya",
+        "Baiklah. Mari kita lanjutkan"
+      ]
+    },
+    {
+      "tag": "sorry",
+      "patterns": [
+        "saya minta maaf",
+        "sangat menyesal",
+        "maafkan saya"
+      ],
+      "responses": [
+        "Tidak apa-apa. Jangan khawatir",
+        "Sudahlah tidak perlu dipikirkan."
+      ]
+    },
+    {
+      "tag": "howareyou",
+      "patterns": [
+        "bagaimana harimu",
+        "apa kabar",
+        "apa kamu baik baik saja",
+        "bagaimana kabarmu"
+      ],
+      "responses": [
+        "Merasa luar biasa!",
+        "Luar biasa! Terima kasih telah bertanya"
+      ]
+    },
+    {
+      "tag": "nicetomeetyou",
+      "patterns": [
+        "senang bertemu denganmu"
+      ],
+      "responses": [
+        "Senang bertemu denganmu juga",
+        "Begitu juga. Aku berharap bisa membantumu",
+        "Senang bertemu denganmu, juga",
+        "Kesenangan adalah milikku"
+      ]
+    },
+    {
+      "tag": "nicetoseeyou",
+      "patterns": [
+        "senang melihatmu"
+      ],
+      "responses": [
+        "Aku mulai merindukanmu."
+      ]
+    },
+    {
+      "tag": "nicetotalktoyou",
+      "patterns": [
+        "senang bisa berbicara denganmu",
+        "senang mengobrol denganmu"
+      ],
+      "responses": [
+        "Kita bisa ngobrol lagi dilain waktu.",
+        "Aku juga senang ngobrol denganmu."
+      ]
+    },
+    {
+      "tag": "islam",
+      "patterns": [
+        "assalamualaikum",
+        "assalamualaikum warahmatullahi wabarakatu"
+      ],
+      "responses": [
+        "Waalaikumsalam",
+        "Waalaikumsalam warahmatullahi wabarakatuh"
+      ]
+    },
+    {
+      "tag": "whatareyoudoing",
+      "patterns": [
+        "kamu lagi apa",
+        "kamu sedang apa"
+      ],
+      "responses": [
+        "Mengobrol dengan kamu",
+        "Menunggu balasan dari kamu"
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "selamat pagi",
+        "good morning"
+      ],
+      "responses": [
+        "Pagi juga",
+        "Selamat Pagi juga"
+      ]
+    },
+    {
+      "tag": "noon",
+      "patterns": [
+        "selamat siang"
+      ],
+      "responses": [
+        "Siang juga",
+        "Selamat Siang juga"
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": [
+        "[|selamat] malam"
+      ],
+      "responses": [
+        "malam juga",
+        "selamat malam juga"
+      ]
+    },
+    {
+      "tag": "whatisitfriend",
+      "patterns": [
+        "apa itu teman ?",
+        "teman itu apa?",
+        "apa arti teman"
+      ],
+      "responses": [
+        "Seribu orang yang datang disaat kamu senang."
+      ]
+    },
+    {
+      "tag": "boy/girl.friend",
+      "patterns": [
+        "apa itu pacar ?",
+        "pacar itu apa?"
+      ],
+      "responses": [
+        "Satu orang yang membuat kamu lupa akan seribu orang."
+      ]
+    },
+    {
+      "tag": "bestfriend",
+      "patterns": [
+        "apa itu sahabat ?",
+        "sahabat itu apa?",
+        "apa arti sahabat"
+      ],
+      "responses": [
+        "Satu orang yang ada disaat seribu satu orang melupakanmu."
+      ]
+    },
+    {
+      "tag": "borkenheart",
+      "patterns": [
+        "aku sakit hati"
+      ],
+      "responses": [
+        "Hatimu boleh patah, matamu boleh basah.Tapi ingat, kamu jangan pernah menyerah.\nPercayalah, pelan-pelan semuanya akan baik-baik saja.",
+        "Hatimu boleh patah, matamu boleh basah.Tapi ingat, kamu jangan pernah menyerah.\nPercayalah, pelan-pelan semuanya akan baik-baik saja.\n\nSemoga kesulitanmu hari ini adalah penebus untuk kebahagiaan yang akan kamu temui dimasa yang akan datang."
+      ]
+    },
+    {
+      "tag": "giveup",
+      "patterns": [
+        "aku menyerah",
+        "aku tidak sanggup lagi"
+      ],
+      "responses": [
+        "Jika kamu menyerah semuanya selesai dengan sia sia.Ingatlah dengan langkah pertamamu, apa tujuanmu.",
+        "Jangan menyerah kawan, berjuanglah tanpa henti.",
+        "Meski harus jalur gelap dan berlubang jadi rintangan,yakinlah itu titik awal dari sebuah terang yang akan kau dapatkan di penghujung jalan.semangat ya, temanku"
+      ]
+    },
+    {
+      "tag": "nevergiveup",
+      "patterns": [
+        "aku tidak akan menyerah"
+      ],
+      "responses": [
+        "Sampai tak seorang pun bisa mengalahkanmu, semangat ya.",
+        "Semuanya tak ada yang sia-sia. Jika kamu mau berjuang semuanya akan dibalas dengan sesuatu yang lebih baik."
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "quote",
+        "quote hari ini",
+        "quote of the day"
+      ],
+      "responses": [
+        "Jangan menghabiskan seluruh hidup tanpa menikmatinya karena kamu akan menyesal saat melihat ke belakang.",
+        "Kamu tidak tahu apa yang ada di depan, jadi nikmati saat ini dan hargai setiap momen kehidupan.",
+        "tidak perlu menjadi hebat untuk memulai tapi mulailah untuk menjadi hebat"
+      ]
+    },
+    {
+      "tag": "pantun",
+      "patterns":[
+        "pantun",
+        "beri saya pantun",
+        "bisakah kamu membuat pantun",
+        "pantun dong",
+        "kasih pantun dong",
+        "buat pantun"
+      ],
+      "responses":[
+        "Pagi hari ditemani sang surya, Hangat tubuh karna sinarnya, Belajarlah setinggi-tingginya, Lalu pulanglah berdakwah sesama.",
+        "Pohon jati kuat kayunya, Pohon kapuk tinggi batangnya, Murid rajin banyak ilmunya, Murid malas banyak bohongnya.",
+        "Jalan-jalan ke Kota Blitar, jangan lupa beli sukun, Jika kamu ingin pintar, Belajarlah dengan tekun.",
+        "Terang bulan indah bercahaya, Cahaya memancar ke Tanjung Jati, Jika engkau hendak bahagia, Beramal Ibadat sebelum mati.",
+        "Sang saka merah putih berkibar bebas, Karena pahlawan-pahlawan yang ikhlas, Memperjuangkan Indonesea agar terlepas, Dari penjajah yang sadis dan pemeras.",
+        "Gunung Merapi, Gunung Merbabu,, tansah jejer kaya sedulur kembar, Aku sing wis tau nglaraake atimu, njaluk samudra pangapuramu kang jembar.",
+        "Anak elang mulailah terbang, Ambilkan dedak berilah makan, Janganlah abang merasa bimbang, Segala kehendak aku tunaikan."
+      ]
+    }
+    
+  ]
+}
